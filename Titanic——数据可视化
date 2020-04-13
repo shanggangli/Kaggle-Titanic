@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-Pathtrain = r'C:\Users\朝花夕拾\Desktop\机器学习\kaggle\Titanic Machine Learning from Disaster\train.csv'
+Pathtrain = r'C:\Users\...\Desktop\机器学习\kaggle\Titanic Machine Learning from Disaster\train.csv'
 Traindata = pd.DataFrame(pd.read_csv(Pathtrain))
 '''descr=Traindata.describe()
 info=Traindata.info()
